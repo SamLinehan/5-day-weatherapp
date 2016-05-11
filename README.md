@@ -4,6 +4,11 @@
 A web app that shows the current 5 day weather forecast for the town of Ipswich, MA. The data being used in this app comes from the [OpenWeatherMap API](http://openweathermap.org/forecast5).
 
 ##Development Environment Setup
+- npm install
+
+
+- Add dotenv file
+- register for api key
 
 ##Build Tooling Setup
 
