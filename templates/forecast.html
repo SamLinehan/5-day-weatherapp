@@ -3,8 +3,8 @@
     <h3><u>{{day.time * 1000 | date:'EEEE'}}</u></h3>
     <h4>{{day.time * 1000 | date: 'MM-dd'}}</h4>
     <div class="temps">
-      <p class="maxTemp">{{day.maxTemp | number: 0}}</p>
-      <p class="minTemp">{{day.minTemp | number: 0}}</p>
+      <p class="maxTemp">{{day.maxTemp | number: 0}}&deg;F</p>
+      <p class="minTemp">{{day.minTemp | number: 0}}&deg;F</p>
     </div>
     <p>{{day.description}}</p>
 </section>

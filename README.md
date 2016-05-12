@@ -3,8 +3,13 @@
 ##Description
 Wanderground (short for Weather Above Ground) is a web app that shows the current 5 day weather forecast for the town of Ipswich, MA. The data being used in this app comes from the [OpenWeatherMap API](http://openweathermap.org/forecast5).
 
+To view the back-end repo, please follow this link:
+[Back-End](https://github.com/SamLinehan/wanderground-server)
+
 ##Deployed Site
 [Wanderground](https://wanderground.firebaseapp.com/#/forecast)
+
+[Server](https://wanderground.herokuapp.com/data)
 
 ##Development Environment Setup
 After cloning the repo, install dependencies using npm:
@@ -28,6 +33,14 @@ Desktop View
 
 Device View
 ![Device View](http://i.imgur.com/6zFALxW.png)
+
+##Sample Testing
+To install Mocha, type the following into your terminal:
+`npm install -g mocha`
+
+To run tests, go into 'tests/tests.js' and remove the "x" in the sequence "xit". The command to run the tests from the root terminal is `mocha tests/`.
+
+To test more code, add code to tests/main.js.
 
 
 ##Sample User Stories
