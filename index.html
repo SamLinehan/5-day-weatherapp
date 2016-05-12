@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="wanderground">
   <head>
     <meta charset="utf-8">
     <title>Weather Forecast App</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <nav>
-      <h1>Five Day Weather Forecast</h1>
+      <h1>Wanderground</h1>
     </nav>
-    <main>
-      <h2>Weather for Ipswich, MA</h2>
-      <section>
+    <h2>Forecast For Ipswich, MA</h2>
+    <main ui-view>
 
-      </section>
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
-    <script src="./client/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+    <script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+    <script src="./client/app.js"></script>
+    <script src="./client/controllers.js"></script>
+    <script src="./client/services.js"></script>
   </body>
 </html>
