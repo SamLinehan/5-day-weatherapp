@@ -1,18 +1,27 @@
 #5 Day Weather Forecast App
 
 ##Description
-A web app that shows the current 5 day weather forecast for the town of Ipswich, MA. The data being used in this app comes from the [OpenWeatherMap API](http://openweathermap.org/forecast5).
+Wanderground (short for Weather Above Ground) is a web app that shows the current 5 day weather forecast for the town of Ipswich, MA. The data being used in this app comes from the [OpenWeatherMap API](http://openweathermap.org/forecast5).
+
+##Deployed Site
+[Wanderground](https://wanderground.firebaseapp.com/#/forecast)
 
 ##Development Environment Setup
-- npm install
+After cloning the repo, install dependencies using npm:
 
+`npm install`
 
-- Add dotenv file
-- register for api key
+To run gulp tasks, use the following commands:
 
-##Build Tooling Setup
+SCSS Linter:
+`gulp scss-lint`
+
+SASS Watch:
+`gulp sass:watch`
 
 ##Wireframes
+
+Initially planned to have icons showing the weather, however had to push off due to time constraints.
 
 Desktop View
 ![Desktop View](http://i.imgur.com/Bs4hU6s.png)

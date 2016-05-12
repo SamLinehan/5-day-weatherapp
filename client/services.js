@@ -7,7 +7,8 @@ angular.module("wanderground")
     return {
       getWeatherData: function getWeatherData() {
         return $http.get(
-          "http://localhost:3000/data"
+          "https://wanderground.herokuapp.com/data"
+          // "http://localhost:3000/data"
         ).then(function(response) {
           return response.data;
         })

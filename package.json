@@ -1,0 +1,25 @@
+{
+  "name": "wanderground",
+  "version": "1.0.0",
+  "description": "##Description A web app that shows the current 5 day weather forecast for the town of Ipswich, MA. The data being used in this app comes from the [OpenWeatherMap API](http://openweathermap.org/forecast5).",
+  "main": "main.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-scss-lint": "^0.3.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamLinehan/5-day-weatherapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamLinehan/5-day-weatherapp/issues"
+  },
+  "homepage": "https://github.com/SamLinehan/5-day-weatherapp#readme"
+}

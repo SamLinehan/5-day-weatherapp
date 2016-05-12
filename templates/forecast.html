@@ -1,7 +1,8 @@
 <section class="dayContainer" ng-repeat="day in fiveDays">
-    <img src="" alt="icon" />
-    <h3>{{day.time * 1000 | date:'EEEE'}}</h3>
-    <div>
+    <!-- <img src="" alt="icon" /> -->
+    <h3><u>{{day.time * 1000 | date:'EEEE'}}</u></h3>
+    <h4>{{day.time * 1000 | date: 'MM-dd'}}</h4>
+    <div class="temps">
       <p class="maxTemp">{{day.maxTemp | number: 0}}</p>
       <p class="minTemp">{{day.minTemp | number: 0}}</p>
     </div>
